@@ -12,3 +12,6 @@ RUN pip install flask
 
 # Define the command to run the app
 CMD ["python", "app.py"]
+
+# Label the container
+LABEL key=homework2
