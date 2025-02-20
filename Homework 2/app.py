@@ -77,4 +77,4 @@ def change_status():
         change_msg=f"Status for Application #{app_number} changed to '{new_status}'.")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
